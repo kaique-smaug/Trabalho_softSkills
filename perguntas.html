@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/asks.css">
+</head>
+
+<body class="bodyK">
+
+
+    <header id="cabecalho">
+        <img src="imagens/p2.jpg" alt="">
+
+
+    </header>
+
+    <button class="centRi" id="buttonBack" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right maior" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg>
+    </button>
+   
+    
+    <div id="clasivsDK">
+
+        <main>
+
+            <div>
+
+                <form action="" class="centralizar">
+
+
+                    <label for="customRange3" class="form-label ">Você tem se sentido muito nervoso, ansioso ou
+                        depressivo ultimamente? Dê uma nota de 0 a 10 para cada um.</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" id="toReceiv1">
+                    <span class="leftD">0</span>
+                    <span class="right1">10</span>
+
+                </form>
+                <form action="" class="centralizar">
+
+
+                    <label for="customRange3" class="form-label">Nervoso</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" id="toReceiv2">
+                    <span class="leftD2">0</span>
+                    <span class="right2">10</span>
+
+                </form>
+                <form action="" class="centralizar">
+
+
+                    <label for="customRange3" class="form-label">Ansioso</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" id="toReceiv3">
+                    <span class="leftD3">0</span>
+                    <span class="right3">10</span>
+
+                </form>
+                <form action="" class="centralizar">
+
+
+                    <label for="customRange3" class="form-label">Depressivo</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" id="toReceiv4">
+                    <span class="leftD4">0</span>
+                    <span class="right4">10</span>
+
+                </form>
+
+                <form action="" class="centralizar">
+
+                    <label for="customRange3" class="form-label">Baseado nas respostas da pergunta anterior, há quanto
+                        tempo você tem se sentido assim?</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" id="TimeFeeling">
+                    <span class="leftD4">0</span>
+                    <span class="right4">10</span>
+                </form>
+
+                <form action="" class="centralizar">
+                    <p>Você tem conseguido dormir bem, descansar e ter momentos de lazer fora do ambiente de trabalho?
+                    </p>
+
+                    <select id="optionSleep" class="form-select" >
+                        <option value=""></option>
+                        <option value="sa">SIM</option>
+                        <option value="sbc">NÃO</option>
+                    </select>
+
+                </form>
+
+                <form action="" class="centralizar">
+                    <p>Existe alguma situação específica no trabalho que tem prejudicado sua saúde mental?</p>
+
+                    <select id="optionMentalHealth" class="form-select">
+                        <option value=""></option>
+                        <option value="sa">SIM</option>
+                        <option value="sbc">NÃO</option>
+                    </select>
+
+                    <br><br>
+                    <div class="form-floating">
+                        <span>Se sim específique</span>
+                        <textarea id="optionToSpecifyH" name="w3review" rows="4" cols="50" class="form-control" >
+
+                     </textarea>
+
+                    </div>
+
+                </form>
+
+                <form action="" class="centralizar">
+                    <p>Você reserva tempo [ao menos 05 (cinco) minutos] todos os dias para relaxar?</p>
+
+                    <select id="optionTime" class="form-select">
+                        <option value=""></option>
+                        <option value="sa">SIM</option>
+                        <option value="sbc">NÃO</option>
+                    </select>
+
+                    <br>
+                    <input type="submit" value="Submit" class="btn btn-primary" id="buttonToReceiveEmotional" onclick="return false">
+
+                </form>
+
+
+            </div>
+
+
+
+        </main>
+    </div>
+
+    <script src="js/perguntas.js"></script>
+
+</body>
+
+</html>

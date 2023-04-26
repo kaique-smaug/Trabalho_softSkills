@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodyK{
+    background: #d3d3d3;
+    height: 1800px;
+}
+header{
+    height: 190px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    box-shadow: 10px 5px 5px #fff;
+    
+}
+header img{
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+   
+}
+
+main {
+    margin-top: 50px;
+    border-radius: 10px  10px 10px;
+    width: 58%;
+    display: flex;
+    text-align: center;
+    margin-left: 23%;
+    height: 80%;
+    box-shadow: 10px 10px 10px 10px #fff;
+}
+/* .sub-containerk{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.centralizar{
+    width: 83%;
+    margin-left: 70px;
+   
+}
+.esquerdinhaum{
+    margin-top: 10px;
+}
+.leftD{
+    display: flex;
+    float: left;
+    margin-left: -13px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.right1{
+    float: right;
+    margin-right: -19px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.leftD2{
+    display: flex;
+    float: left;
+    margin-left: -13px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.right2{
+    float: right;
+    margin-right: -19px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.leftD3{
+    display: flex;
+    float: left;
+    margin-left: -13px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.right3{
+    float: right;
+    margin-right: -19px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.leftD4{
+    display: flex;
+    float: left;
+    margin-left: -13px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.right4{
+    float: right;
+    margin-right: -19px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.leftD5{
+    display: flex;
+    float: left;
+    margin-left: -13px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.right5{
+    float: right;
+    margin-right: -19px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+
+.centRi{
+    display: flex;
+    float: right;
+   background: #d3d3d3;
+   margin-top: -150px;
+   margin-left: 20px;
+   width: 50px;
+   height: 50px;
+   border: none;
+}
+.maior{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+}
+/* Aplicando desgne responsivo */
+
+
